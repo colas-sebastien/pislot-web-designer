@@ -1,0 +1,1094 @@
+{
+    "name": "carrera_go",
+    "timestamp": 1517935264251,
+    "code_size": 3,
+    "parts": [{
+            "nom": "A..",
+            "description": {
+                "fr": "Alim Start/Finish",
+                "en": "Alim Start/Finish",
+                "de": "Alim Start/Finish"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 114,
+                "droite": 114
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/a_u.png",
+                "couleur1": "models/carrera_go/img/a_u_1.png",
+                "largeur": 114,
+                "hauteur": 143,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/a_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 29
+            },
+            "sortie": {
+                "x": 114,
+                "y": 29,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Apl",
+            "description": {
+                "fr": "Alim Start/Finish",
+                "en": "Alim Start/Finish"
+            },
+            "type": "GO PLUS",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 114,
+                "droite": 114
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/apl_u.png",
+                "largeur": 114,
+                "hauteur": 143,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/apl_u_1.png",
+                "couleur2": "models/carrera_go/img/apl_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 114,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "B..",
+            "description": {
+                "fr": "Compte tour manuel",
+                "en": "Manual lap counter"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 114,
+                "droite": 114
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/b_u.png",
+                "couleur1": "models/carrera_go/img/b_u_1.png",
+                "largeur": 114,
+                "hauteur": 232,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/b_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 61
+            },
+            "sortie": {
+                "x": 114,
+                "y": 61,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "C..",
+            "description": {
+                "fr": "Droite 342mm",
+                "en": "Straight 342mm"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/c_u.png",
+                "couleur1": "models/carrera_go/img/c_u_1.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/c_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "straight"
+        }, {
+            "nom": "D..",
+            "description": {
+                "fr": "Droite 114mm",
+                "en": "Straight 114mm"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 114,
+                "droite": 114
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/d_u.png",
+                "couleur1": "models/carrera_go/img/d_u_1.png",
+                "largeur": 114,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/d_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 114,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "straight"
+        }, {
+            "nom": "E..",
+            "description": {
+                "fr": "Droite 100mm",
+                "en": "Straight 100mm"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 100,
+                "droite": 100
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/e_u.png",
+                "largeur": 100,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/e_u_1.png",
+                "couleur2": "models/carrera_go/img/e_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 100,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "straight"
+        }, {
+            "nom": "Fd.",
+            "description": {
+                "fr": "Virage droite R1 45°",
+                "en": "Curve right R1 45°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 157,
+                "droite": 111
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/f_u_d.png",
+                "couleur1": "models/carrera_go/img/f_u_d_1.png",
+                "largeur": 162,
+                "hauteur": 148,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/f_u_d_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 162,
+                "y": 66,
+                "angle": 45
+            },
+            "category": "curve"
+        }, {
+            "nom": "Fg.",
+            "description": {
+                "fr": "Virage gauche R1 45°",
+                "en": "Curve left R1 45°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 111,
+                "droite": 157
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/f_u_g.png",
+                "couleur1": "models/carrera_go/img/f_u_g_1.png",
+                "largeur": 162,
+                "hauteur": 148,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/f_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 34
+            },
+            "sortie": {
+                "x": 80,
+                "y": 0,
+                "angle": -45
+            },
+            "category": "curve"
+        }, {
+            "nom": "Gd.",
+            "description": {
+                "fr": "Virage droite R1 90°",
+                "en": "Curve right R1 90°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 314,
+                "droite": 223
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/g_u_d.png",
+                "couleur1": "models/carrera_go/img/g_u_d_1.png",
+                "largeur": 228,
+                "hauteur": 228,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/g_u_d_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 228,
+                "y": 228,
+                "angle": 90
+            },
+            "category": "curve"
+        }, {
+            "nom": "Gg.",
+            "description": {
+                "fr": "Virage gauche R1 90°",
+                "en": "Curve left R1 90°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 223,
+                "droite": 314
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/g_u_g.png",
+                "couleur1": "models/carrera_go/img/g_u_g_1.png",
+                "largeur": 228,
+                "hauteur": 228,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/g_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 114
+            },
+            "sortie": {
+                "x": 114,
+                "y": 0,
+                "angle": -90
+            },
+            "category": "curve"
+        }, {
+            "nom": "H..",
+            "description": {
+                "fr": "Changement de voie",
+                "en": "Change sections"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "changement": true,
+            "longueur": {
+                "gauche": 228,
+                "droite": 228
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/h_u.png",
+                "largeur": 228,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/h_u_1.png",
+                "couleur2": "models/carrera_go/img/h_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 228,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "I..",
+            "description": {
+                "fr": "Rétrécissement",
+                "en": "Narrow section"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 230,
+                "droite": 230
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/i_u.png",
+                "largeur": 228,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/i_u_1.png",
+                "couleur2": "models/carrera_go/img/i_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 228,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "K..",
+            "description": {
+                "fr": "Rail relvé",
+                "en": "Fly Over"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 193,
+                "droite": 193
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/k_u.png",
+                "largeur": 200,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/k_u_1.png",
+                "couleur2": "models/carrera_go/img/k_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 200,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "L1d",
+            "description": {
+                "fr": "Looping 1d",
+                "en": "Looping 1d"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 1143,
+                "droite": 0
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/l_u_1_d.png",
+                "largeur": 342,
+                "hauteur": 171,
+                "rotation": 0,
+                "dessus": "models/carrera_go/img/l_u_1_d_t.png",
+                "couleur1": "models/carrera_go/img/l_u_1_d_1.png",
+                "couleur2": "models/carrera_go/img/l_u_1_d_2.png"
+            },
+            "entree": {
+                "x": 171,
+                "y": 0
+            },
+            "sortie": {
+                "x": 171,
+                "y": 57,
+                "angle": 0
+            },
+            "changement": true,
+            "category": "special"
+        }, {
+            "nom": "L1g",
+            "description": {
+                "fr": "Looping 1g",
+                "en": "Looping 1g"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 0,
+                "droite": 1143
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/l_u_1_g.png",
+                "largeur": 342,
+                "hauteur": 171,
+                "rotation": 0,
+                "dessus": "models/carrera_go/img/l_u_1_g_t.png",
+                "couleur1": "models/carrera_go/img/l_u_1_g_2.png",
+                "couleur2": "models/carrera_go/img/l_u_1_g_1.png"
+            },
+            "entree": {
+                "x": 171,
+                "y": 57
+            },
+            "sortie": {
+                "x": 171,
+                "y": 0,
+                "angle": 0
+            },
+            "changement": true,
+            "category": "special"
+        }, {
+            "nom": "L2d",
+            "description": {
+                "fr": "Looping 2d",
+                "en": "Looping 2d"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 1143,
+                "droite": 1143
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/l_u_2_d.png",
+                "largeur": 342,
+                "hauteur": 228,
+                "rotation": 0,
+                "dessus": "models/carrera_go/img/l_u_2_d_t.png",
+                "couleur1": "models/carrera_go/img/l_u_2_d_1.png",
+                "couleur2": "models/carrera_go/img/l_u_2_d_2.png"
+            },
+            "entree": {
+                "x": 171,
+                "y": 0
+            },
+            "sortie": {
+                "x": 171,
+                "y": 114,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "L2g",
+            "description": {
+                "fr": "Looping 2g",
+                "en": "Looping 2g"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 1143,
+                "droite": 1143
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/l_u_2_g.png",
+                "dessus": "models/carrera_go/img/l_u_2_g_t.png",
+                "largeur": 342,
+                "hauteur": 228,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/l_u_2_g_2.png",
+                "couleur2": "models/carrera_go/img/l_u_2_g_1.png"
+            },
+            "entree": {
+                "x": 171,
+                "y": 114
+            },
+            "sortie": {
+                "x": 171,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Md.",
+            "description": {
+                "fr": "Virage droite relevé R1 45° ",
+                "en": "High banked curve right R1 45°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 314,
+                "droite": 223
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/m_u_d.png",
+                "couleur1": "models/carrera_go/img/m_u_d_1.png",
+                "largeur": 162,
+                "hauteur": 148,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/m_u_d_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 162,
+                "y": 66,
+                "angle": 45
+            },
+            "category": "curve"
+        }, {
+            "nom": "Mg.",
+            "description": {
+                "fr": "Virage gauche relevé R1 45° ",
+                "en": "High banked curve left R1 45°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 223,
+                "droite": 314
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/m_u_g.png",
+                "couleur1": "models/carrera_go/img/m_u_g_1.png",
+                "largeur": 162,
+                "hauteur": 148,
+                "rotation": 0,
+                "couleur2": "models/carrera_go/img/m_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 34
+            },
+            "sortie": {
+                "x": 80,
+                "y": 0,
+                "angle": -45
+            },
+            "category": "curve"
+        }, {
+            "nom": "nd.",
+            "description": {
+                "fr": "Virage droite R1 45° terre",
+                "en": "Rallye curve right R1 45°"
+            },
+            "type": "GO",
+            "surface": ["terre"],
+            "longueur": {
+                "gauche": 157,
+                "droite": 111
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/n_l_d.png",
+                "largeur": 162,
+                "hauteur": 148,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/n_l_d_1.png",
+                "couleur2": "models/carrera_go/img/n_l_d_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 162,
+                "y": 66,
+                "angle": 45
+            },
+            "category": "curve"
+        }, {
+            "nom": "ng.",
+            "description": {
+                "fr": "Virage gauche R1 45° terre",
+                "en": "Rallye curve left R1 45°"
+            },
+            "type": "GO",
+            "surface": ["terre"],
+            "longueur": {
+                "gauche": 111,
+                "droite": 157
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/n_l_g.png",
+                "largeur": 162,
+                "hauteur": 148,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/n_l_g_1.png",
+                "couleur2": "models/carrera_go/img/n_l_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 34
+            },
+            "sortie": {
+                "x": 80,
+                "y": 0,
+                "angle": -45
+            },
+            "category": "curve"
+        }, {
+            "nom": "Ngg",
+            "description": {
+                "fr": "Croisement",
+                "en": ""
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/n_u.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/n_u_1.png",
+                "couleur2": "models/carrera_go/img/n_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Np.",
+            "description": {
+                "fr": "Croisement rattrapage",
+                "en": ""
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 114,
+                "droite": 114
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/n_u_0.png",
+                "largeur": 114,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/n_u_c_1.png",
+                "couleur2": "models/carrera_go/img/n_u_c_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 114,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Ng.",
+            "description": {
+                "fr": "Croisement",
+                "en": ""
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/n_u.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/n_u_1.png",
+                "couleur2": "models/carrera_go/img/n_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Npg",
+            "description": {
+                "fr": "Croisement rattrapage",
+                "en": ""
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 114,
+                "droite": 114
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/n_u_0.png",
+                "largeur": 114,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/n_u_c_1.png",
+                "couleur2": "models/carrera_go/img/n_u_c_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 114,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Od.",
+            "description": {
+                "fr": "Virage droite R2 45°",
+                "en": "Curve right R2 45°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 247,
+                "droite": 201
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/o_u_d.png",
+                "largeur": 242,
+                "hauteur": 181,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/o_u_d_1.png",
+                "couleur2": "models/carrera_go/img/o_u_d_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 242,
+                "y": 99,
+                "angle": 45
+            },
+            "category": "curve"
+        }, {
+            "nom": "Og.",
+            "description": {
+                "fr": "Virage gauche R2 45°",
+                "en": "Curve left R2 45°"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 201,
+                "droite": 247
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/o_u_g.png",
+                "largeur": 242,
+                "hauteur": 181,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/o_u_g_1.png",
+                "couleur2": "models/carrera_go/img/o_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 66
+            },
+            "sortie": {
+                "x": 161,
+                "y": 0,
+                "angle": -45
+            },
+            "category": "curve"
+        }, {
+            "nom": "Qad",
+            "description": {
+                "fr": "Changement terrain 342mm",
+                "en": "Crossover straights 342 mm"
+            },
+            "type": "GO",
+            "surface": ["asphalte", "terre"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/qad_u.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/qad_u_1.png",
+                "couleur2": "models/carrera_go/img/qad_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "straight"
+        }, {
+            "nom": "Qda",
+            "description": {
+                "fr": "Changement terrain 342mm",
+                "en": "Crossover straights 342 mm"
+            },
+            "type": "GO",
+            "surface": ["asphalte", "terre"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/qda_u.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/qda_u_1.png",
+                "couleur2": "models/carrera_go/img/qda_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "straight"
+        }, {
+            "nom": "r..",
+            "description": {
+                "fr": "Pit Stop",
+                "en": "Pit Stop"
+            },
+            "type": "GO PLUS",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/r_l.png",
+                "largeur": 342,
+                "hauteur": 238,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/r_l_1.png",
+                "couleur2": "models/carrera_go/img/r_l_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 62
+            },
+            "sortie": {
+                "x": 342,
+                "y": 62,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Rd.",
+            "description": {
+                "fr": "Virage droite terre R1 90°",
+                "en": "Rallye curve right R1 90°"
+            },
+            "type": "GO",
+            "surface": ["terre"],
+            "longueur": {
+                "gauche": 314,
+                "droite": 223
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/r_u_d.png",
+                "largeur": 228,
+                "hauteur": 228,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/r_u_d_1.png",
+                "couleur2": "models/carrera_go/img/r_u_d_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 228,
+                "y": 228,
+                "angle": 90
+            },
+            "category": "curve"
+        }, {
+            "nom": "Rg.",
+            "description": {
+                "fr": "Virage gauche terre R1 90°",
+                "en": "Rallye curve left R1 90°"
+            },
+            "type": "GO",
+            "surface": ["terre"],
+            "longueur": {
+                "gauche": 223,
+                "droite": 314
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/r_u_g.png",
+                "largeur": 228,
+                "hauteur": 228,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/r_u_g_1.png",
+                "couleur2": "models/carrera_go/img/r_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 114
+            },
+            "sortie": {
+                "x": 114,
+                "y": 0,
+                "angle": -90
+            },
+            "category": "curve"
+        }, {
+            "nom": "Sd.",
+            "description": {
+                "fr": "Chicane de rallye droite",
+                "en": "Rallye narrow section right"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 342,
+                "droite": 348
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/sd_u.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/sd_u_1.png",
+                "couleur2": "models/carrera_go/img/sd_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Sg.",
+            "description": {
+                "fr": "Chicane de rallye gauche",
+                "en": "Rallye narrow section left"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 348,
+                "droite": 342
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/sg_u.png",
+                "largeur": 342,
+                "hauteur": 114,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/sg_u_1.png",
+                "couleur2": "models/carrera_go/img/sg_u_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 342,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "Y1g",
+            "description": {
+                "fr": "Virage rétrécissement gauche",
+                "en": "Narrow curve left"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 206,
+                "droite": 265
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/y1_u_g.png",
+                "largeur": 260,
+                "hauteur": 171,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/y1_u_g_1.png",
+                "couleur2": "models/carrera_go/img/y1_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 57
+            },
+            "sortie": {
+                "x": 192,
+                "y": 0,
+                "angle": -30
+            },
+            "category": "special"
+        }, {
+            "nom": "Y2g",
+            "description": {
+                "fr": "Virage rétrécissement droite",
+                "en": "Narrow curve right"
+            },
+            "type": "GO",
+            "surface": ["asphalte"],
+            "longueur": {
+                "gauche": 265,
+                "droite": 206
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/y2_u_g.png",
+                "largeur": 262,
+                "hauteur": 184,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/y2_u_g_1.png",
+                "couleur2": "models/carrera_go/img/y2_u_g_2.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 262,
+                "y": 86,
+                "angle": 30
+            },
+            "category": "special"
+        }]
+}

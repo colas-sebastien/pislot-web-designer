@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 21, 2017, 11:30:20 AM
+    Author     : scolas
+*/
+#canvas {
+  background-color: white; }
+
+#track_code::selection {
+  background: #ff00ea; }
+
+#track_code::-moz-selection {
+  background: #ff00ea; }
+
+.highlight {
+  background-color: #ff00ea; }
+
+.track_list {
+  width: 250px; }
+
+.track_list ul {
+  height: 800px;
+  overflow-y: scroll; }
+
+.track_edit_list {
+  width: 100px; }
+
+.track_edit_list ul {
+  height: 800px;
+  overflow-y: scroll; }
+
+input[type="number"] {
+  width: 65px; }
+
+.track_edit_canvas {
+  width: 500px; }
+
+#library_open_list {
+  height: 400px;
+  overflow-y: scroll; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Designer: Track Part Editor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/jcanvas-21.0.1.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/track_part_editor.js"></script>
+        <script src="js/track_part_editor_lang.js"></script>        
+        <script src="js/menu_track/file.js"></script>
+        <link rel="stylesheet" href="css/w3.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body bgcolor="lightgray">
+        <div class="w3-bar w3-light-grey">
+            <div></div>
+            <div class="w3-dropdown-hover">
+                <button id="menu_file" class="w3-button">File</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a id="menu_file_save"     class="w3-bar-item w3-button">Save</a>
+                    <a id="menu_file_export"   class="w3-bar-item w3-button">Export</a>
+                </div>
+            </div>                                          
+        </div>        
+        <div class="w3-row">
+          <div class="w3-col w3-left w3-container w3-white  w3-padding-small track_edit_list">
+                <ul class="w3-ul w3-border w3-hoverable" id="track_list" >
+                </ul> 
+                <button class="w3-button w3-block w3-blue" id="new_track">+</button>
+          </div>
+          <div class="w3-col w3-right w3-container w3-white  w3-padding-small track_edit_canvas">
+              <canvas width="500" height="500"></canvas>   
+              <fieldset>
+                  <label><input type="checkbox" id="dessous" checked> <pan id="display_1">Affiche image du dessous</span></label><br>
+                  <label><input type="checkbox" id="dessus"  checked> <pan id="display_2">Affiche image du dessus</span></label><br>
+                  <label><input type="checkbox" id="p1"      checked> <pan id="display_3">Affiche piste couleur 1</span></label><br>
+                  <label><input type="checkbox" id="p2"             > <pan id="display_4">Affiche piste couleur 2</span></label>
+              </fieldset>
+          </div>            
+          <div class="w3-rest w3-container w3-padding-16 track_edit">
+              <div class="w3-container w3-half">
+                <fieldset>
+                    <label>Nom : </label><input id="s_nom" type="text" size="2" disabled>
+                </fieldset>
+                <!--fieldset>
+                    <label>Rail : </label><input id="s_rail" type="text" size="1">
+                    <label>Nombre: </label><input id="n_quantite" type="number">                                           
+                </fieldset-->
+                <fieldset>
+                    <lablel>Description : </lablel>
+                    <ul>
+                        <li><input id="s_description_fr" type="text" size="30"> (fr)</li>
+                        <li><input id="s_description_en" type="text" size="30"> (en)</li>
+                        <li><input id="s_description_de" type="text" size="30"> (de)</li>
+                    </ul>                  
+                </fieldset>
+                <fieldset>
+                    <label>Type : </label>
+                      <input type="radio" name="Type" value="GO"> Go !!!
+                      <input type="radio" name="Type" value="GO PLUS"> Go +
+                      <input type="radio" name="Type" value="DIGIT 143"> Digital 143
+                </fieldset>
+                <fieldset>
+                    <label>Categorie : </label>
+                      <input type="radio" name="Category" value="straight">Droite
+                      <input type="radio" name="Category" value="curve">Courbe 
+                      <input type="radio" name="Category" value="special">Spéciale
+                </fieldset>
+                <fieldset>
+                    <label> Surface : </label>
+                      <input type="checkbox" name="surface" value="asphalte"> Asphalte 
+                      <input type="checkbox" name="surface" value="terre"> Terre
+                      <input type="checkbox" name="surface" value="neige"> Neige
+                </fieldset>
+                <fieldset>
+                    <label> Changement de voie : </label>
+                      <input type="checkbox" name="changement_voie" value="oui"> oui
+                </fieldset>              
+                <fieldset>
+                    <label> Longueur voie : </label>
+                    <ul>
+                        <li><input id="n_longueur_gauche" type="number" size="4"> mm (gauche)</li>
+                        <li><input id="n_longueur_droite" type="number" size="4"> mm (droite)</li>
+                    </ul>
+                </fieldset>
+              </div>
+              <div class="w3-container w3-half">
+                <fieldset>
+                    <label> Images : </label>
+                    <ul>
+                        <li><input id="n_image_largeur"  type="number" size="6"> x 
+                            <input id="n_image_hauteur"  type="number" size="6">
+                       deg :<input id="n_image_rotation" type="number" size="5"></li>
+                        <li><input id="s_image_dessous"  type="text" size="30"> dessous</li>
+                        <li><input id="s_image_dessus"   type="text" size="30"> dessus</li>
+                        <li><input id="s_image_couleur1" type="text" size="30"> couleur 1</li>
+                        <li><input id="s_image_couleur2" type="text" size="30"> couleur 2</li>
+                    </ul>
+                </fieldset> 
+                <fieldset>
+                    <label> Entrée : </label><br>
+                      <input id="n_entree_x" type="number" size="6"> x 
+                      <input id="n_entree_y" type="number" size="6">
+                </fieldset>
+                <fieldset>
+                    <label> Sortie : </label><br>
+                      <input id="n_sortie_x"          type="number" size="6"> x 
+                      <input id="n_sortie_y"          type="number" size="6">
+                      deg :<input id="n_sortie_angle" type="number" size="5">
+                </fieldset>  
+              </div>
+          </div>
+        </div> 
+        
+        <div id="file_new" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container"> 
+                    <span onclick="document.getElementById('file_new').style.display='none'" 
+                          class="w3-button w3-display-topright">&times;</span>                          
+                    <h2>New Track Part</h2>
+                </header>
+                <div class="w3-container">
+                    <p></p>
+                    <div id="error" class="w3-panel w3-red w3-display-container">
+                      <span onclick="this.parentElement.style.display='none'"
+                      class="w3-button w3-red w3-large w3-display-topright">&times;</span>
+                      <h3>Error !</h3>
+                      <p>Part Track Name must be 3 characters</p>
+                    </div>
+                    <input id="new_trackname" class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Track Part Name (3 characters)" required >
+                    <button class="w3-button w3-block w3-green w3-section w3-padding" id="file_new_ok">OK</button>
+                </div>
+            </div>
+        </div>
+                
+    </body>
+</html>

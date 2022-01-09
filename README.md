@@ -30,5 +30,9 @@ Launch a brower on http://localhost
 
 - [Carrera Go](models/carrera_go/parts.md)
 
+## TODO
+- Translation in multiple languages
+- multiple layer support
+- docker compose, in track part editor image does not display properly
 
 

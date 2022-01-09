@@ -14,7 +14,7 @@ function handleFileSelect(evt) {
 
         // Closure to capture the file information.
         reader.onload = (function (theFile) {
-            return function (e) {
+            return function (e) { 
                 console.log('e readAsText = ', e);
                 console.log('e readAsText target = ', e.target);
                 try {
@@ -36,7 +36,7 @@ $( document ).ready(function() {
     $("#menu_file_new").on("click",function()
     {
         $("#file_new_trackname").val("");
-        document.getElementById('file_new').style.display='block';
+        $('#file_new').show();
     });
 
     $("#file_new_ok").on("click",function()
@@ -44,9 +44,9 @@ $( document ).ready(function() {
         track_name=$("#file_new_trackname").val();
         if(track_name.length>0)
         {
-            document.getElementById('file_new').style.display='none';                        
+            $('#file_new').hide();
             piste={
-                "nom":track_name,
+                "name":track_name,
                 "code":"",
                 "display":{"x":0,"y":0,"angle":0,"zoom":0.5}
             };
@@ -81,14 +81,28 @@ $( document ).ready(function() {
     /**** SAVE ****************************************************************/
     $("#menu_file_save").on("click",function()
     {
-        localStorage.setItem(piste.nom, JSON.stringify(piste));
+        localStorage.setItem(piste.name, JSON.stringify(piste));
     });
     
     /**** SAVE AS ... *********************************************************/
-    $("#menu_file_save_as").hide();
+    //$("#menu_file_save_as").hide();
+
+    /**** SAVE AS ... *********************************************************/
+    //$("#menu_rename_as").hide();    
     
     /**** DELETE **************************************************************/
-    $("#menu_file_delete").hide();
+    $("#menu_file_delete").on("click",function()
+    {
+        localStorage.removeItem($('#track_name').val());
+        $('#track_name').val('');
+        piste={
+            "name":"",
+            "code":"",
+            "display":{"x":0,"y":0,"angle":0,"zoom":0.5}
+        };
+        $("#track_code").val(piste.code);
+        draw(piste);        
+    });
     
     /**** IMPORT **************************************************************/
     $("#menu_file_import").on("click",function()

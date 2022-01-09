@@ -1,3 +1,9 @@
+about=
+{
+    name:       "PiSlot Web Designer",
+    version:    "20.07.15 beta"
+}
+
 translation=
 {
     "en": 
@@ -7,6 +13,7 @@ translation=
                 "#menu_file_open"           :"Open",
                 "#menu_file_save"           :"Save",
                 "#menu_file_save_as"        :"Save As ...",
+                "#menu_rename_as"           :"Rename As ...",
                 "#menu_file_delete"         :"Delete",
                 "#menu_file_import"         :"Import",
                 "#menu_file_export"         :"Export",
@@ -23,7 +30,11 @@ translation=
                 
                 "#menu_tracks"              :"Tracks",
                 
-                "#menu_tools"               :"Tools"
+                "#menu_tools"               :"Tools",
+
+                "#menu_about"               :"About...",
+                "#about_title"              :about.name,
+                "#about_version"            :about.version                
             }
         ,
     "fr": 
@@ -33,6 +44,7 @@ translation=
                 "#menu_file_open"           :"Ouvrir",
                 "#menu_file_save"           :"Enregistrer",
                 "#menu_file_save_as"        :"Enregistrer sous ...",
+                "#menu_rename_as"           :"Renommer ...",
                 "#menu_file_delete"         :"Supprimer",
                 "#menu_file_import"         :"Import",
                 "#menu_file_export"         :"Export",
@@ -49,8 +61,12 @@ translation=
                 
                 "#menu_tracks"              :"Pistes",
                 
-                "#menu_tools"               :"Outils"
-    }
+                "#menu_tools"               :"Outils",
+
+                "#menu_about"               :"A propos...",
+                "#about_title"              :about.name,
+                "#about_version"            :about.version
+    },
 };
 
 $( document ).ready(function() {

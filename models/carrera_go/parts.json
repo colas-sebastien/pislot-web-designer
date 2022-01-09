@@ -1,6 +1,6 @@
 {
     "name": "carrera_go",
-    "timestamp": 1517935264251,
+    "timestamp": 1517935264252,
     "code_size": 3,
     "parts": [{
             "nom": "A..",
@@ -1088,6 +1088,66 @@
                 "x": 262,
                 "y": 86,
                 "angle": 30
+            },
+            "category": "special"
+        }, {
+            "nom": "[[[",
+            "description": {
+                "fr": "N/A",
+                "en": "N/A"
+            },
+            "type": "GO",
+            "surface": [],
+            "longueur": {
+                "gauche": 0,
+                "droite": 0
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/empty.png",
+                "largeur": 0,
+                "hauteur": 0,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/empty.png",
+                "couleur2": "models/carrera_go/img/empty.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 0,
+                "y": 0,
+                "angle": 0
+            },
+            "category": "special"
+        }, {
+            "nom": "]]]",
+            "description": {
+                "fr": "N/A",
+                "en": "N/A"
+            },
+            "type": "GO",
+            "surface": [],
+            "longueur": {
+                "gauche": 0,
+                "droite": 0
+            },
+            "image": {
+                "dessous": "models/carrera_go/img/empty.png",
+                "largeur": 0,
+                "hauteur": 0,
+                "rotation": 0,
+                "couleur1": "models/carrera_go/img/empty.png",
+                "couleur2": "models/carrera_go/img/empty.png"
+            },
+            "entree": {
+                "x": 0,
+                "y": 0
+            },
+            "sortie": {
+                "x": 0,
+                "y": 0,
+                "angle": 0
             },
             "category": "special"
         }]

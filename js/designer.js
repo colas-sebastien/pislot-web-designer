@@ -110,11 +110,7 @@ function draw(track,highlight)
     auto_adjust={};
     $('#track_components').html('');
     for (var piece in splits)
-    {
-        if (splits[piece] === "[[[") layer;
-        else
-        if (splits[piece] === "]]]") layer;
-        else            
+    {      
         if (splits[piece] !== "")
         {
             var recherche={"nom":splits[piece]};            
@@ -228,8 +224,6 @@ function draw(track,highlight)
             });
         }
     }     
-    $('#length_red').val(length.left);
-    $('#length_blue').val(length.right);
     display_canvas();
 }
 
@@ -244,7 +238,7 @@ function load_parts()
         
         if (local_parts===null)
         {
-            if (DEBUG) console.log("Using remote parts (no local parts)");
+            if (DEBUG) console.log("Using remote parts (no local parts) : " + model);
             localStorage.setItem("model_"+data.name,JSON.stringify(data));
             PiecesGo=data.parts;
             taille_code=data.code_size;
@@ -300,7 +294,6 @@ $( document ).ready(function() {
     });
     
     load_parts();    
-    
 });
 
 
